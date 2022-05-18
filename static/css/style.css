@@ -1,0 +1,59 @@
+body {
+    background-color: #71bce3ee;
+}
+
+.header {
+    height: 75px;
+    width: 100%;
+    background-color: white;
+    border-bottom: 3px solid;
+}
+
+.dataWrapper {
+    width: 100%;
+}
+
+.align_center {
+    text-align: center;
+    float: top;
+}
+
+html,
+body {
+  height: 100%;
+  padding: 0;
+  margin: 0;
+  background: skyblue;
+}
+
+div {
+  width: 50%;
+  height: 50%;
+  float: left;
+  background: skyblue;
+}
+
+#div1 {
+  background: skyblue;
+  float: left;
+}
+
+#div2 {
+  background: skyblue;
+  float: right;
+}
+
+#div3 {
+  background: skyblue;
+  float: left;
+}
+
+#div4 {
+  background: skyblue;
+  float: right;
+}
+
+#inputwidth{
+   width: 200%;
+}
+  
