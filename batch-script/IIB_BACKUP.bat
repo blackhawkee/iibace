@@ -21,6 +21,9 @@ echo Verifying the Integration Node %IIB_NODE% Status
 @echo off
 call %IIB_INSTALLED_PATH%\mqsilist.exe
 
+
 mqsibackupbroker %IIB_NODE% -d %BACKUP_BROKER_PATH% -a %ARCHIVE_NAME%
+
+call %IIB_INSTALLED_PATH%\mqsistop.exe %IIB_NODE%
 
 echo Backup Created Successfully

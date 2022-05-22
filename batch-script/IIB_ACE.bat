@@ -19,16 +19,3 @@ echo :
 echo Starting the ACE Integration Node %ACE_NODE%
 
 call %ACE_INSTALLED_PATH%\mqsistart.exe %ACE_NODE%
-
-REM %IIB_INSTALLED_PATH% && (
-  REM echo "Profile already set"
-  
-  REM mqsilist
-  REM mqsibackupbroker %IIB_NODE% -d %BACKUP_BROKER_PATH% -a %ARCHIVE_NAME%
-  
-  REM %ACE_INSTALLED_PATH% && (
-	REM mqsiextractcomponents --backup-file %BACKUP_BROKER_PATH%\%ARCHIVE_NAME% --source-integration-node %IIB_NODE% --target-integration-node %ACE_NODE%
-  REM ) || (
-	REM mqsiextractcomponents --backup-file %BACKUP_BROKER_PATH%\%ARCHIVE_NAME% --source-integration-node %IIB_NODE% --target-integration-node %ACE_NODE%
-  REM )
-
