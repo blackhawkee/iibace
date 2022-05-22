@@ -56,4 +56,14 @@ div {
 #inputwidth{
    width: 200%;
 }
+
+#div5 {
+  float: right;
+  background-color: white;
+}
+
+#div6 {
+  float: left;
+  background-color: white;
+}
   
